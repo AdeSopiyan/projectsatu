@@ -8,6 +8,51 @@
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <link rel="stylesheet" type="text/css" href="responsive.css">
   <link rel="shortcut icon" href="favicon.ico" >
+
+  <style>
+
+  .testimony-wrapper {
+    background-image: url('bg-testimony.jpg');
+    background-size: cover;
+  }
+
+  .testimony {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0
+  }
+
+  .testimony::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .testimony img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+
+  .testimony span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+
+  @media (max-width: 500px) {
+    .testimony {
+        text-align: center;
+    }
+    .testimony img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+  }
+</style>
+
 </head>
 <body>
     <header>
@@ -19,6 +64,8 @@
         <div class="header-right">
           <a href="#">Home</a>
           <a href="#">Profile</a>
+          <a href="#">Product</a>
+          <a href="#">Career</a>
           <a href="#" class="login">Sign up</a>
         </div>
       </div>
@@ -76,6 +123,36 @@
         </div>
       </div>
     </div>
+
+    <div class="testimony-wrapper">
+      <div class="container">
+        <div class="heading">
+          <center>
+          <h1>What Client Say About Us</h1>
+          <p>Here is several testimonials from our clients</p>
+          </center>
+        </div>
+        <div class="testimony">
+          <img src="team-1.jpg" alt="Avatar" style="width:90px">
+          <p><span>Chris Fox.</span> CEO at PT Cipta Eka Abadi</p>
+          <p>Sungguh IT Consultant yang sangat luar biasa. Excellent!</p>
+        </div>
+
+        <div class="testimony">
+          <img src="team-2.jpg" alt="Avatar" style="width:90px">
+          <p><span>Rebecca Flex.</span> CEO at PT Maju Terus Pantang Mundur</p>
+          <p>Mengatasi masalah tanpa masalah. Nice job!</p>
+        </div>
+
+        <div class="testimony">
+          <img src="team-3.jpg" alt="Avatar" style="width:90px">
+          <p><span>Alex Fergusion.</span> CEO at PT Harapan Jaya Indonesia</p>
+          <p>Fast response, barang sesuai gambar. Bintang lima pokoknya..</p>
+        </div>
+
+      </div>
+    </div>
+
     <div class="message-wrapper">
       <div class="container">
         <div class="heading">
