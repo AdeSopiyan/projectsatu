@@ -40,7 +40,6 @@ a {
   position: relative;
   display: inline-block;
   font-size: 40px;
-  text-transform: uppercase;
   animation: flip 4s infinite;
   animation-delay: calc(.4s * var(--i))
 }
