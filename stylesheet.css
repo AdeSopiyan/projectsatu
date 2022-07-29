@@ -299,6 +299,11 @@ footer {
   margin-right: 15px;
 }
 
+.telphone {
+  color: black;
+  font-size: 12px;
+}
+
 @media (max-width: 500px) {
   .testimony {
       text-align: center;
